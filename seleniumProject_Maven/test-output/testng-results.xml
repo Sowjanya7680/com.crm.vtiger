@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="1" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="548" started-at="2021-09-17T17:26:00 IST" finished-at="2021-09-17T17:26:01 IST">
+    <groups>
+      <group name="SmokeSuite">
+        <method signature="TC_01_CreateOrganizationTest.createOrganizationTest()[pri:0, instance:com.crm.autodesk.OrganizationTest.TC_01_CreateOrganizationTest@262b2c86]" name="createOrganizationTest" class="com.crm.autodesk.OrganizationTest.TC_01_CreateOrganizationTest"/>
+        <method signature="TC_02_CreateOrganizationWithIndustryDropDrownOptionTest.createOrganizationTest()[pri:0, instance:com.crm.autodesk.OrganizationTest.TC_02_CreateOrganizationWithIndustryDropDrownOptionTest@13c27452]" name="createOrganizationTest" class="com.crm.autodesk.OrganizationTest.TC_02_CreateOrganizationWithIndustryDropDrownOptionTest"/>
+        <method signature="TC_04_CreateOrganizationWithTypeDropDownTest.createOrganizationWithTypeDropDownTest()[pri:0, instance:com.crm.autodesk.OrganizationTest.TC_04_CreateOrganizationWithTypeDropDownTest@371a67ec]" name="createOrganizationWithTypeDropDownTest" class="com.crm.autodesk.OrganizationTest.TC_04_CreateOrganizationWithTypeDropDownTest"/>
+      </group> <!-- SmokeSuite -->
+    </groups>
+    <test name="Test" duration-ms="548" started-at="2021-09-17T17:26:00 IST" finished-at="2021-09-17T17:26:01 IST">
+      <class name="com.crm.autodesk.OrganizationTest.TC_01_CreateOrganizationTest">
+        <test-method status="FAIL" signature="createOrganizationTest()[pri:0, instance:com.crm.autodesk.OrganizationTest.TC_01_CreateOrganizationTest@262b2c86]" name="createOrganizationTest" duration-ms="40" started-at="2021-09-17T17:26:01 IST" finished-at="2021-09-17T17:26:01 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy13.click(Unknown Source)
+at com.crm.autodesk.elementRepository.HomePage.clickOnOrganizations(HomePage.java:85)
+at com.crm.autodesk.OrganizationTest.TC_01_CreateOrganizationTest.createOrganizationTest(TC_01_CreateOrganizationTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganizationTest -->
+      </class> <!-- com.crm.autodesk.OrganizationTest.TC_01_CreateOrganizationTest -->
+      <class name="com.crm.autodesk.OrganizationTest.TC_02_CreateOrganizationWithIndustryDropDrownOptionTest">
+        <test-method status="FAIL" signature="createOrganizationTest()[pri:0, instance:com.crm.autodesk.OrganizationTest.TC_02_CreateOrganizationWithIndustryDropDrownOptionTest@13c27452]" name="createOrganizationTest" duration-ms="434" started-at="2021-09-17T17:26:00 IST" finished-at="2021-09-17T17:26:01 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy13.click(Unknown Source)
+at com.crm.autodesk.elementRepository.HomePage.clickOnOrganizations(HomePage.java:85)
+at com.crm.autodesk.OrganizationTest.TC_02_CreateOrganizationWithIndustryDropDrownOptionTest.createOrganizationTest(TC_02_CreateOrganizationWithIndustryDropDrownOptionTest.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganizationTest -->
+      </class> <!-- com.crm.autodesk.OrganizationTest.TC_02_CreateOrganizationWithIndustryDropDrownOptionTest -->
+      <class name="com.crm.autodesk.OrganizationTest.TC_04_CreateOrganizationWithTypeDropDownTest">
+        <test-method status="FAIL" signature="createOrganizationWithTypeDropDownTest()[pri:0, instance:com.crm.autodesk.OrganizationTest.TC_04_CreateOrganizationWithTypeDropDownTest@371a67ec]" name="createOrganizationWithTypeDropDownTest" duration-ms="30" started-at="2021-09-17T17:26:01 IST" finished-at="2021-09-17T17:26:01 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy13.click(Unknown Source)
+at com.crm.autodesk.elementRepository.HomePage.clickOnOrganizations(HomePage.java:85)
+at com.crm.autodesk.OrganizationTest.TC_04_CreateOrganizationWithTypeDropDownTest.createOrganizationWithTypeDropDownTest(TC_04_CreateOrganizationWithTypeDropDownTest.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganizationWithTypeDropDownTest -->
+      </class> <!-- com.crm.autodesk.OrganizationTest.TC_04_CreateOrganizationWithTypeDropDownTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
