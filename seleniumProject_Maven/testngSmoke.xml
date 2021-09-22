@@ -3,13 +3,13 @@
 <suite name="Suite">
 <groups>
 <run>
-<include name="SmokeSuite"></include>
+<include name="SmokeSuites"></include>
 </run>
 </groups>
 
   <test thread-count="5" name="Test">
     <classes>
-      <class ame="com.crm.autodesk.OrganizationTest.TC_03_CreateOrganizationWithIndustryTest"/>
+      <class name="com.crm.autodesk.OrganizationTest.TC_03_CreateOrganizationWithIndustryTest"/>
       <class name="com.crm.autodesk.OrganizationTest.TC_05_CreateOrganizationWithTypeTest"/>
       <class name="com.crm.autodesk.OrganizationTest.TC_02_CreateOrganizationWithIndustryDropDrownOptionTest"/>
       <class name="com.crm.autodesk.OrganizationTest.TC_01_CreateOrganizationTest"/>

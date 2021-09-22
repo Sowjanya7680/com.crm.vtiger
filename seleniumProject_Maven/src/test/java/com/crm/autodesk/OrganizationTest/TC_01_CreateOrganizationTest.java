@@ -14,7 +14,7 @@ import junit.framework.Assert;
 
 public class TC_01_CreateOrganizationTest extends BaseClass {
 
-	@Test(groups = "SmokeSuite")
+	@Test(groups = "SmokeSuites")
 	public void createOrganizationTest() throws Throwable {
 		// Get the organization name from external resources
 		String ORGANIZATIONNAME = eLib.getExcelData("Sheet 1", 25, 2);
