@@ -34,12 +34,6 @@ public class OrgTest {
 		System.out.println("execute editOrg test");
 	}
 
-	@Test(groups = "Regression Test")
-	public void mergeOrg() {
-
-		System.out.println("execute mergeOrg test");
-	}
-
 	@Test(groups = "Smoke Test")
 	public void filterOrg() {
 
