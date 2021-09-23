@@ -8,6 +8,9 @@ public class OrgTest {
 	public void CreateOrganizationTest() {
 
 		System.out.println("execute CreateOrganization test");
+		String BROWSER = System.getProperty("browser");
+		String ENV = System.getProperty("url");
+		System.out.println("BROWSER------->" + BROWSER + "    , URL-------->" + ENV);
 	}
 
 	@Test(groups = "Smoke Test")
