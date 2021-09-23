@@ -39,4 +39,11 @@ public class OrgTest {
 
 		System.out.println("execute mergeOrg test");
 	}
+
+	@Test(groups = "Smoke Test")
+	public void filterOrg() {
+
+		System.out.println("execute filterOrg test");
+	}
+
 }
