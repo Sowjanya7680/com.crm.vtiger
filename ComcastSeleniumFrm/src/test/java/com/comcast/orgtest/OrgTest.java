@@ -27,4 +27,10 @@ public class OrgTest {
 
 		System.out.println("execute SearchOrganization test");
 	}
+
+	@Test(groups = "Regression Test")
+	public void editOrg() {
+
+		System.out.println("execute editOrg test");
+	}
 }
